@@ -59,7 +59,7 @@ form > div.campo{
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 8px;
+    border-radius: 9px;
     margin: 5px 0px;
 }
 div.campo > label{
@@ -72,14 +72,16 @@ div.campo > span{
     width: 40px;
     padding: 5px;
 }
+
 div.campo > input{
     background-color:#2dd6d1 ;
     font-size: 1em;
-    width: calc(100% - 53px);
+    width: calc(100% - 58px);
     transform:translateY(-12px);
     height: 100%;
-    border: none;
+    border: 0px;
     border-radius: 8px;
+    
 }
 div.campo > input:focus-within{
     background-color: white;
